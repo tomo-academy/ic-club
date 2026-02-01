@@ -43,7 +43,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
           <div className="flex justify-between h-16 items-center">
             {/* Logo */}
             <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate(user?.role === UserRole.ADMIN ? '/admin' : '/dashboard')}>
-              <img src="/RUIDcee55086d8ef460fb5d9a0ab8b20405b.png" alt="IC Club Logo" className="w-10 h-10 rounded-xl object-cover shadow-lg" />
+              <img src="/ic-logo.png" alt="IC Club Logo" className="w-10 h-10 rounded-xl object-cover shadow-lg" />
               <img src="/ic-,.png" alt="IC Club" className="h-8 object-contain" />
             </div>
 
