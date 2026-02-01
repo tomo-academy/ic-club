@@ -31,7 +31,7 @@ export const Login: React.FC = () => {
       <div className="w-full max-w-md bg-surface border border-gray-100 rounded-3xl p-10 shadow-soft relative z-10 animate-in fade-in zoom-in-95 duration-500">
         <div className="text-center mb-10">
           <div className="inline-flex items-center justify-center mb-6">
-            <img src="/RUIDcee55086d8ef460fb5d9a0ab8b20405b.png" alt="IC Club Logo" className="w-20 h-20 rounded-2xl object-cover shadow-lg shadow-gray-200" />
+            <img src="/ic-logo.png" alt="IC Club Logo" className="w-20 h-20 rounded-2xl object-cover shadow-lg shadow-gray-200" />
           </div>
           <h2 className="text-3xl font-bold text-primary tracking-tight">
             {isLogin ? 'Welcome Back!' : 'Join Young Innovators'}

@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Innovation Club Hardware Management Platform</strong><br>
-  Powered by Advanced AI Technology
+  Powered by AJ STUDIOZ
 </p>
 
 <p align="center">
