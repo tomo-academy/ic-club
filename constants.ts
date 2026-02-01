@@ -55,7 +55,7 @@ export const MOCK_HARDWARE: HardwareItem[] = [
     name: 'Arduino Uno R3',
     description: 'Microcontroller board based on the ATmega328P. Perfect for beginners.',
     pricePerDay: 50,
-    image: 'https://picsum.photos/400/300?random=1',
+    image: '/Arduino_Uno_-_R3.jpg',
     available: true,
     stock: 10,
     category: 'Microcontrollers'
@@ -65,7 +65,7 @@ export const MOCK_HARDWARE: HardwareItem[] = [
     name: 'Raspberry Pi 4 (4GB)',
     description: 'A powerful quad-core computer capable of dual-display support at resolutions up to 4K.',
     pricePerDay: 150,
-    image: 'https://picsum.photos/400/300?random=2',
+    image: '/raspeberry-4.jpg',
     available: true,
     stock: 5,
     category: 'Single Board Computers'
@@ -75,7 +75,7 @@ export const MOCK_HARDWARE: HardwareItem[] = [
     name: 'Ultrasonic Sensor HC-SR04',
     description: 'Provides 2cm - 400cm non-contact measurement functionality.',
     pricePerDay: 20,
-    image: 'https://picsum.photos/400/300?random=3',
+    image: '/ultrasonic.jfif',
     available: true,
     stock: 25,
     category: 'Sensors'
@@ -85,7 +85,7 @@ export const MOCK_HARDWARE: HardwareItem[] = [
     name: 'SG90 Micro Servo Motor',
     description: 'Tiny and lightweight with high output power. Ideal for RC projects.',
     pricePerDay: 30,
-    image: 'https://picsum.photos/400/300?random=4',
+    image: '/sg90-micro-motor.jpg',
     available: false,
     stock: 0,
     category: 'Motors'
@@ -95,7 +95,7 @@ export const MOCK_HARDWARE: HardwareItem[] = [
     name: 'Drone Kit (DIY)',
     description: 'Complete kit to build your own quadcopter. Flight controller included.',
     pricePerDay: 500,
-    image: 'https://picsum.photos/400/300?random=5',
+    image: '/drone-kit.jfif',
     available: true,
     stock: 2,
     category: 'Robotics'
