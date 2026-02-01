@@ -44,10 +44,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
             {/* Logo */}
             <div className="flex items-center gap-3 cursor-pointer" onClick={() => navigate(user?.role === UserRole.ADMIN ? '/admin' : '/dashboard')}>
               <img src="/RUIDcee55086d8ef460fb5d9a0ab8b20405b.png" alt="IC Club Logo" className="w-10 h-10 rounded-xl object-cover shadow-lg" />
-              <div className="flex flex-col">
-                <span className="text-xl font-bold tracking-tight text-primary">IC Club</span>
-                <span className="text-xs text-secondary font-medium tracking-wider uppercase">by Sona</span>
-              </div>
+              <img src="/ic-,.png" alt="IC Club" className="h-8 object-contain" />
             </div>
 
             {/* Desktop Navigation */}
