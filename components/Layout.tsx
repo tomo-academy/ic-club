@@ -196,7 +196,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-6">
-                <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center text-white font-bold shadow-md">IC</div>
+                <img src="/ic-logo.png" alt="IC Club Logo" className="w-8 h-8 rounded-lg object-cover shadow-md" />
                 <span className="text-lg font-bold text-primary">IC Club</span>
               </div>
               <p className="text-secondary text-sm max-w-xs leading-relaxed">
